@@ -1,0 +1,19 @@
+package programa2;
+
+public class Programa2 {
+
+    public static void main(String[] args) {
+        System.out.println("CUENTA REGRESIVA");
+        for (int i = 60; i >= 0; i--) {
+            System.out.println(i + " segundos");
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+
+            }
+        }
+
+        System.out.println("CUENTA REGRESIVA FINALIZADA");
+    }
+
+}
